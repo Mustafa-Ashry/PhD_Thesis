@@ -1,0 +1,116 @@
+\contentsline {chapter}{Table of Contents}{v}{chapter*.1}%
+\contentsline {chapter}{List of Tables}{ix}{chapter*.1}%
+\contentsline {chapter}{List of Figures}{x}{chapter*.2}%
+\contentsline {chapter}{\nonumberline List of Abbreviations}{xii}{chapter*.4}%
+\contentsline {chapter}{Abstract}{xiv}{chapter*.5}%
+\contentsline {chapter}{Acknowledgements}{xvi}{chapter*.6}%
+\contentsline {chapter}{Introduction}{1}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}SUPERSYMMETRY AND THE MINIMAL SUPERSYMMETRIC STANDARD MODEL}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}SUPERSYMMETRY}{12}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Introduction and Motivations}{12}{subsection.1.1.1}%
+\contentsline {subsubsection}{SM Fine-Tuning and Hierarchy Problems}{15}{section*.8}%
+\contentsline {subsubsection}{SUSY motivations}{18}{section*.11}%
+\contentsline {subsubsection}{SUSY Naturalness and Nonrenormalization}{18}{section*.12}%
+\contentsline {subsection}{\numberline {1.1.2}Spinors}{20}{subsection.1.1.2}%
+\contentsline {subsubsection}{Weyl Spinors}{20}{section*.14}%
+\contentsline {subsubsection}{Dirac Spinors}{22}{section*.15}%
+\contentsline {subsubsection}{Majorana Spinors}{23}{section*.16}%
+\contentsline {subsection}{\numberline {1.1.3}Algebra and Supermultiplets}{23}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Superfields and Superpotential}{26}{subsection.1.1.4}%
+\contentsline {subsubsection}{Chiral and Antichiral Superfields}{26}{section*.18}%
+\contentsline {subsubsection}{Superpotential}{26}{section*.19}%
+\contentsline {subsubsection}{K\"{a}hler potential}{27}{section*.20}%
+\contentsline {subsubsection}{Real Superfields}{28}{section*.21}%
+\contentsline {subsubsection}{Abelian Gauge Interactions}{29}{section*.22}%
+\contentsline {subsubsection}{Non-Abelian Gauge Interactions}{31}{section*.23}%
+\contentsline {subsubsection}{Soft SUSY Breaking Terms}{32}{section*.24}%
+\contentsline {subsubsection}{SUSY Transformations}{33}{section*.25}%
+\contentsline {section}{\numberline {1.2}The Minimal Supersymmetric Standard Model}{34}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}MSSM Lagrangian}{34}{subsection.1.2.1}%
+\contentsline {subsubsection}{$R$-Parity}{39}{section*.27}%
+\contentsline {subsection}{\numberline {1.2.2}MSSM Spectrum}{40}{subsection.1.2.2}%
+\contentsline {subsubsection}{Chargino/Neutralino Sector}{43}{section*.29}%
+\contentsline {subsection}{\numberline {1.2.3}Radiative Electroweak Symmetry Breaking}{45}{subsection.1.2.3}%
+\contentsline {subsubsection}{Higgs Mass Limit}{47}{section*.32}%
+\contentsline {subsubsection}{Gauge Coupling Unification}{47}{section*.33}%
+\contentsline {chapter}{\numberline {2}SUPERSYMMETRIC $B-L$ EXTENSION OF THE STANDARD MODEL}{49}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Neutrino Masses in MSSM}{49}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Dirac Mass Term}{50}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Seesaw Mechanisms}{53}{subsection.2.1.2}%
+\contentsline {subsubsection}{Type I Seesaw}{53}{section*.35}%
+\contentsline {subsubsection}{Inverse Seesaw}{57}{section*.37}%
+\contentsline {section}{\numberline {2.2}BLSSM Model}{58}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}BLSSM Structure}{58}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Gauge Kinetic Mixing in BLSSM}{61}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}$B-L$ symmetry breaking}{65}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}BLSSM Spectrum}{68}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}BLSSM Higgs Sector}{70}{subsection.2.2.5}%
+\contentsline {subsubsection}{Tadpole Equations and Potential Minimization}{72}{section*.40}%
+\contentsline {subsection}{\numberline {2.2.6}BLSSM Gauge Sector}{74}{subsection.2.2.6}%
+\contentsline {chapter}{\numberline {3}PHENOMENOLOGY OF BLSSM}{76}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{76}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The BLSSM BPs and Spectrum}{79}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Search for a heavy neutral CP-even Higgs boson at the LHC}{85}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}The $h'\to W^+W^-\to 2\ell +{\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\llap {\hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\llap {\hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\llap {\hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\llap {\hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ Channel}{88}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}The $h'\to {ZZ}\to 4\ell $ Channel}{91}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}The $h'\to {hh}\to {b\bar {b}\gamma \gamma }$ Channel}{93}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Historical Significance}{95}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}ML Analysis}{96}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Conclusion}{98}{section.3.4}%
+\contentsline {chapter}{\numberline {4}LEFT RIGHT INVERSE SEESEW}{100}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{100}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Supersymmetric Left-Right Model}{102}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Inverse Seesaw Mechanism}{105}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Left Right Model with Inverse Seesaw}{106}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Spontanous Symmetry Breaking in LRIS}{113}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Gauge Boson Masses}{115}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Fermion Masses}{118}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Higgs Sector in LRIS}{120}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Singly Charged Scalars}{120}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Neutral Pseudoscalars}{121}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Neutral Scalars}{123}{subsection.4.6.3}%
+\contentsline {chapter}{\numberline {5}PHENOMENOLOGY OF LRIS}{127}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Search for a heavy neutral Higgs boson in LRIS at the LHC}{127}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Heavy Neutral CP-Even Higgs Boson in LRIS}{128}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Search for Heavy Higgs Bosons at the LHC}{134}{subsection.5.1.2}%
+\contentsline {subsubsection}{Search for $h'$ Higgs boson in $h'\to hh\to b\bar {b}\gamma \gamma $}{135}{section*.62}%
+\contentsline {subsubsection}{Search for $h'$ Higgs boson in $h'\to ZZ\to 4\ell $}{143}{section*.70}%
+\contentsline {subsection}{\numberline {5.1.3}Conclusion}{146}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Muon $g-2$ anomaly in LRIS}{146}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}LRIS Couplings for $a_\mu $}{147}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}LRIS Contributions to $a_\mu $}{154}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}LFV Constraints on $a_\mu $}{162}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Conclusion}{165}{subsection.5.2.4}%
+\contentsline {chapter}{\numberline {6}SEMI-VISIBLE DARK PHOTON IN A MODEL WITH VECTOR-LIKE LEPTONS FOR THE $(g-2)_{e,\mu }$ and $W$-BOSON MASS ANOMALIES}{166}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The VLSM model}{166}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Gauge boson sector}{166}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Fermion sector}{168}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Fermion interactions}{170}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Anomalous magnetic moments and $W$-boson mass}{172}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Anomalous magnetic moments}{172}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}$W$-boson mass}{175}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Signals of light particles}{179}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Semi-visible dark photon}{179}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}The light vector-like neutrino and $U(1)'$ scalar}{181}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Vector-like lepton search at the LHC}{182}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Conclusions}{183}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{185}{chapter.7}%
+\contentsline {chapter}{\numberline {A}LRIS Appendix}{189}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Tadpole Equations and Potential Minimization}{189}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Copositivity Conditions of the Higgs Potential}{190}{subsection.A.0.2}%
+\contentsline {subsection}{\numberline {A.0.3}Neutral $CP$-even Higgs Rotations and Determinant}{191}{subsection.A.0.3}%
+\contentsline {chapter}{\numberline {B}The muon anomalous magnetic moment $a_\mu $ in QED and the EW Theory}{193}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Algebra and Useful Relations}{195}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Theory of Magnetic Moment}{198}{section.B.2}%
+\contentsline {section}{\numberline {B.3}$a_\mu $ in QED}{201}{section.B.3}%
+\contentsline {section}{\numberline {B.4}$a_\mu $ in EW Theory}{207}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}$W-\nu $-loop}{208}{subsection.B.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}$Z$-loop}{215}{subsection.B.4.2}%
+\contentsline {subsection}{\numberline {B.4.3}Higgs loop}{220}{subsection.B.4.3}%
+\contentsline {chapter}{\numberline {C}VLSM Appendix}{224}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Details of the model}{224}{section.C.1}%
+\contentsline {subsection}{\numberline {C.1.1}Diagonalization of vector boson mass matrix}{224}{subsection.C.1.1}%
+\contentsline {subsection}{\numberline {C.1.2}Diagonalization of the fermion mass matrices}{226}{subsection.C.1.2}%
+\contentsline {subsection}{\numberline {C.1.3}Lepton couplings}{229}{subsection.C.1.3}%
+\contentsline {section}{\numberline {C.2}Loop functions}{230}{section.C.2}%
+\contentsline {chapter}{Bibliography}{232}{equation.C.2.8}%
