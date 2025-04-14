@@ -15,4 +15,5 @@ Alternatively, run separately each of the following commands
 3. bibtex mashry_phd_thesis.aux
 4. lualatex  mashry_phd_thesis.tex
 5. lualatex  mashry_phd_thesis.tex
+
 The second command is to create a 'List of Abbreviations', and we use Lualatex because of some desigend Feynman diagrams.
