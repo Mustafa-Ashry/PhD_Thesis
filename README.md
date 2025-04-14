@@ -1,10 +1,10 @@
 # PhD_Thesis
 I assume you place every thin in the main folder <.../Thesis/>
 
-Expand Chapters.zip and Preample.zip in the main folder <.../Thesis/> to have 
+Expand <Chapters.zip> and <Preample.zip> in the main folder <.../Thesis/> to have 
 <.../Thesis/Chapters/> <.../Thesis/Preample7>
 
-Create a subdirectory <.../Thesis/figures/> and expand the all files <figures_X> within it such that you have
+Create a subdirectory <.../Thesis/figures/> and expand the all files <figures_X.zip> within it such that you have
 <.../Thesis/figures/figures_MSSM/> <.../Thesis/figures/figures_BLSSM/> <.../Thesis/figures/figures_LRISM/> <.../Thesis/figures/figures_VLSM/>
 
 To compile, run <sh 0run.sh> in a terminal in the main folder.
