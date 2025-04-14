@@ -1,0 +1,449 @@
+\documentclass[12pt,twoside]{report}
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{orcidlink}
+%\usepackage{lmodern}
+\usepackage{graphicx}
+\graphicspath{{./figures/figures_MSSM/}{./figures/figures_BLSSM/}{./figures/figures_LRIS/}{./figures/figures_VLSM/}}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{xcolor}
+%\usepackage[table,xcdraw]{xcolor}
+\usepackage{multirow}
+\usepackage{rotating,tabularx}
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations}
+\makenomenclature
+\usepackage{pifont}
+\usepackage{slashbox}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\usepackage{chngcntr}
+\usepackage{axodraw}
+\usepackage[centertags]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{newlfont}
+\usepackage{xthesis}
+\usepackage{xtocinc}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[avantgarde]{quotchap}
+\usepackage{fancyhdr}
+\usepackage[bookmarks=true,bookmarksnumbered=false,bookmarksopen=true,colorlinks=true,linkcolor=webred,breaklinks=true,citecolor=blue]{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage{url}
+\definecolor{webgreen}{rgb}{0, 0.5, 0}
+\definecolor{webblue}{rgb}{0, 0, 0.5}
+\definecolor{webred}{rgb}{0.5, 0, 0}
+\usepackage{slashed}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{color}
+\usepackage{arydshln}
+\usepackage{lscape}
+\usepackage{changemargin}
+\usepackage{cite,amssymb}
+\usepackage{amsmath} 
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{slashbox}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[compat=1.0.0]{tikz-feynman}
+\renewcommand*{\theenumi}{\thesection.\arabic{enumi}}
+\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+\usepackage{pgfplots}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\lsim{\raise0.3ex\hbox{$\;<$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\def\gsim{\raise0.3ex\hbox{$\;>$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\def\ie{{\it i.e.,~}}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\def\ththMat#1#2#3#4#5#6#7#8#9{\ensuremath{\begin{pmatrix}#1&#2&#3\\#4&#5&#6\\#7&#8&#9\end{pmatrix}}}
+\def\twtwMat#1#2#3#4{\ensuremath{\begin{pmatrix}#1&#2\\#3&#4\\\end{pmatrix}}}
+\def\thtwMat#1#2#3#4#5#6{\ensuremath{\begin{pmatrix}#1&#2\\#3&#4\\#5&#6\end{pmatrix}}}
+\def\fivecMat#1#2#3#4#5{\ensuremath{\begin{pmatrix}#1\\#2\\#3\\#4\\#5\end{pmatrix}}}
+\def\threecMat#1#2#3{\ensuremath{\begin{pmatrix}#1\\#2\\#3\end{pmatrix}}}
+\def\fiverMat#1#2#3#4#5{\ensuremath{\begin{pmatrix}#1&#2&#3&#4&#5\end{pmatrix}}}
+\def\threerMat#1#2#3{\ensuremath{\begin{pmatrix}#1&#2&#3\end{pmatrix}}}
+\def\tworMat#1#2{\ensuremath{\begin{pmatrix}#1&#2\end{pmatrix}}}
+\def\twocMat#1#2{\ensuremath{\begin{pmatrix}#1\\#2\end{pmatrix}}}
+\def\Matdiag#1#2#3{\ensuremath{\begin{pmatrix}#1&0&0\\0&#2&0\\0&0&#3\end{pmatrix}}}
+\def\MatCase#1#2{\ensuremath{\begin{matrix}#1\\#2\end{matrix}}}
+\def\MatU{\ensuremath{\frac{1}{\sqrt{3}}\begin{pmatrix}1 &1 &1\\1 &\omega &\omega^2\\1 &\omega^2 &\omega\end{pmatrix}}}
+\newcommand{\da}[1]{16\pi^2\;\frac{d #1}{dt}}
+\newcommand{\mat}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+\newcommand{\UBL}{{\ensuremath{U(1)_{B-L}}}\xspace}
+\newcommand{\higgsbounds}{{\sc HiggsBounds}}
+\newcommand{\higgssignals}{{\sc HiggsSignals}}
+\makeatletter
+\renewcommand{\baselinestretch}{1.23}
+\renewcommand\chapterheadstartvskip{\vspace*{-\baselineskip}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+%%%%%%%%%%%%%%%%%%%%%%%
+\hfuzz2pt
+%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]{\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}{2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\SMsym}{$SU(3)_{_{C}}\times SU(2)_{_{L}}\times U(1)_{_{Y}}$}
+\newcommand{\LRMsym}{SU(3)_{_{C}}\times SU(2)_{_{L}}\times SU(2)_{_{R}}\times U(1)_{_{B-L}}}
+\newcommand{\Lg}{{\cal L}}
+\newcommand{\1}{\left}
+\newcommand{\2}{\right}
+\newcommand{\g}{\gamma}
+\newcommand{\p}{\partial}
+\newcommand{\lb}{\label}
+\newcommand{\rf}[1]{(\ref{#1})}
+\newcommand{\eq}[1]{eq.~(\ref{#1})}
+\newcommand{\be}{\begin{equation}\displaystyle}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}\displaystyle}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\bes}{\begin{equation*}\displaystyle}
+\newcommand{\ees}{\end{equation*}}
+\newcommand{\beas}{\begin{eqnarray*}\displaystyle}
+\newcommand{\eeas}{\end{eqnarray*}}
+\newcommand{\n}{\nonumber\\}
+\newcommand{\s}{\smallskip}
+\newcommand{\tb}{\tan \beta}
+\newcommand{\non}{\nonumber}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\dd}{\displaystyle}
+\newcommand{\pd}{\partial}
+\newcommand{\ovl}{\overline}
+\newcommand{\lm}{\lambda}
+\newcommand{\tw}{\theta_{_{W}}}
+\newcommand{\al}{\alpha}
+\newcommand{\red}[1]{\textcolor[rgb]{1,0,0}{#1}}
+\newcommand{\green}[1]{\textcolor[rgb]{0,1,0}{#1}}
+\newcommand{\blue}[1]{\textcolor[rgb]{0,0,1}{#1}}
+\newcommand{\feynrules}{{\sc FeynRules}}
+\newcommand{\FRversion}{2.0}
+\newcommand{\asperge}{{\sc ASperGe}}
+\newcommand{\gsl}{{\sc Gsl}}
+\newcommand{\feynarts}{{\sc FeynArts}}
+\newcommand{\feyncalc}{{\sc FeynCalc}}
+\newcommand{\mathematica}{{\sc Mathematica\textsuperscript{\textregistered}}}
+\newcommand{\calchep}{{\sc CalcHep}}
+\newcommand{\comphep}{{\sc CompHep}}
+\newcommand{\mgme}{{\sc MadGraph/MadEvent}}
+\newcommand{\ufo}{{\sc UFO}}
+\newcommand{\sherpa}{{\sc Sherpa}}
+\newcommand{\whizard}{{\sc Whizard}}
+\newcommand{\formcalc}{{\sc Form\-Calc}}
+\newcommand{\gosam}{{\sc GoSam}}
+\newcommand{\python}{{\sc Python}}
+\newcommand{\madgraph}{{\sc MadGraph}}
+\newcommand{\madevent}{{\sc MadEvent}}
+\newcommand{\madanalysis}{{\sc MadAnalysis}}
+\newcommand{\aloha}{{\sc Aloha}}
+\newcommand{\herwig}{{\sc Herwig}}
+\newcommand{\lanhep}{{\sc LanHep}}
+\newcommand{\ohmega}{{\sc Omega}}
+\newcommand{\sarah}{{\sc Sarah}}
+\newcommand{\spheno}{{\sc SPheno}}
+\newcommand{\cpp}{{\sc C++}}
+\newcommand{\pythia}{{\sc Pythia}}
+\newcommand{\delphes}{{\sc Delphes}}
+\newcommand{\giant}{{\sc Giant}}
+\newcommand{\montecarlo}{{\sc MonteCarlo}}
+\newcommand{\madwidth}{{\sc MadWidth}}
+\newcommand{\vevacious}{{\sc vevacious}}
+\newcommand{\tmva}{{\sc TMVA}}
+\newcommand{\latex}{\LaTeX\xspace}
+\def\lsim{\raise0.3ex\hbox{$\;<$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\def\gsim{\raise0.3ex\hbox{$\;>$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\def\ie{{\it i.e.}}
+\def\bt{\begin{table}}
+\def\et{\end{table}}
+%%%%%%%%%%
+%% VLSM %%
+%%%%%%%%%%
+%\newcommand{\vev}[1]{{\langle{#1}\rangle}}
+\newcommand{\MEW}{m_Z}
+\newcommand{\wid}{{\Gamma}} 
+\newcommand{\br}[2]{\text{Br}({#1}\to{#2})} 
+\newcommand{\ev}[1]{\langle{#1}\rangle} 
+\newcommand{\qqad}{\quad\quad\ }
+\newcommand{\brbsg}{\text{Br}(b \to s \gamma)}
+\newcommand{\brbsm}{\text{Br}(B_s \to \mu^+\mu^-)}
+\newcommand{\ep}{\epsilon}
+\newcommand{\Ms}{{M_\text{susy}}}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\lam}{\lambda}
+\newcommand{\kap}{\kappa}
+\newcommand{\eps}{\epsilon} 
+\newcommand{\sig}{\sigma}
+\newcommand{\bchi}{\bar{\chi}}
+\newcommand{\blam}{\bar{\lambda}}
+\newcommand{\bpsi}{\bar{\psi}}
+\newcommand{\bPsi}{\bar{\Psi}}
+\newcommand{\tchi}{\tilde{\chi}}
+\newcommand{\tlam}{\tilde{\lambda}}
+\newcommand{\tpsi}{\tilde{\psi}}
+\newcommand{\tPsi}{\tilde{\Psi}}
+\newcommand{\hchi}{\hat{\chi}}
+\newcommand{\hlam}{\hat{\lambda}}
+\newcommand{\hpsi}{\hat{\pai}}
+\newcommand{\hPsi}{\hat{\Psi}}
+\newcommand{\Uop}{\mathrm{\U1'}}
+\newcommand{{\lag}}{\mathcal{L}}
+\newcommand{\Hcal}{\mathcal{H}}
+\newcommand{\Lcal}{\mathcal{L}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\hcal}{\mathcal{H}}
+\newcommand{\Ocal}{\mathcal{O}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Ical}{\mathcal{I}}
+\newcommand{\Ecal}{\mathcal{E}}
+\newcommand{\cred}[1]{{\color{red}#1}}
+
+\setcounter{footnote}{0}
+\newcommand{\la}{{\lambda}}
+\newcommand{\ka}{{\kappa}}
+\newcommand{\mQ}{{m^2_{\tilde{Q}}}}
+\newcommand{\mU}{{m^2_{\tilde{u}}}}
+\newcommand{\mD}{{m^2_{\tilde{d}}}}
+\newcommand{\mL}{{m^2_{\tilde{L}}}}
+\newcommand{\mE}{{m^2_{\tilde{e}}}}
+\newcommand{\mhu}{{m^2_{H_u}}}
+\newcommand{\mhd}{{m^2_{H_d}}}
+\newcommand{\ms}{{m^2_S}} 
+\newcommand{\Ala}{{A_\lambda}}
+\newcommand{\Aka}{{A_\kappa}} 
+\newcommand{\order}[1]{\mathcal{O}\left({#1}\right)}
+\newcommand{\Zp}{{A'}} 
+\newcommand{\pr}{\prime}
+\newcommand{\Eps}{\mathcal{E}}
+\newcommand{\define}{=}
+\newcommand{\GWS}{\mathrm{GWS}}
+\newcommand{\abs}[1]{\left|{#1}\right|}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\gp}{{g^\prime}}
+\newcommand{\MeV}{\mathrm{MeV}}
+\newcommand{\GeV}{\mathrm{GeV}}
+\newcommand{\TeV}{\mathrm{TeV}}
+\newcommand{\rep}[1]{\mathbf{#1}}
+\newcommand{\SM}{{\mathrm{SM}}}
+\newcommand{\gmt}{g\mathrm{-}2}
+%\newcommand{\exp}{{\mathrm{exp}}}
+\def\lsim{\raise0.3ex\hbox{$\;<$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\def\gsim{\raise0.3ex\hbox{$\;>$\kern-0.75em\raise-1.1ex\hbox{$\sim\;$}}}
+\newcommand\Tstrut{\rule{0pt}{2.6ex}} % = `top' strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}} % = `bottom' strut 
+%%% COLOR CODE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\JK}[1]{\textcolor{red}{#1}}
+\newcommand{\WA}[1]{\textcolor{blue}{#1}}
+%\newcommand{\AM}[1]{\textcolor{green}{#1}}
+%\newcommand{\MA}[1]{\textcolor{magenta}{#1}}
+%\newcommand{\tbu}[1]{\textcolor{cyan}{#1}} % 'to be updated' after new result 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\numberwithin{equation}{section}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\rm}{\textrm}
+\newcommand{\vev}[1]{\left\langle #1 \right\rangle}
+%%%%%%%%%%%%%%%%%%%%%%%
+% AElsayed
+%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\1}{\mu_1^2}
+%\newcommand{\2}{\mu_2^2}
+%\newcommand{\3}{\mu_3^2}
+%\newcommand{\4}{\theta}
+%\newcommand{\5}{M_{_{Z'}}^2}
+%\newcommand{\g}{g''^2}
+%\newcommand{\n}{\nonumber\\}
+\newcommand{\nn}{\tilde{\nu}}
+%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\tclineskip}{1.05\baselineskip}
+%%%%%%%%%%%%%%%%%%%%%%%
+\dedicate{
+\vspace{0.5in}
+\texttt{
+{\bf To}\\~\\
+my wife, Samira
+\\\&\\
+my little angel, Aisha
+\\\&\\
+my beloved parents ...
+%\\\&\\
+%The peaceful souls of my late brothers:
+%\\
+%Mohamed Ashry (1976-2008) 
+%\\and\\ 
+%Ahmed Ashry (1983-2004)
+%\\\&\\
+%The smart souls of my late friends and colleagues:
+%\\
+%Waleed A. Elsayed (1986-2015)
+%\\and\\ 
+%Ahmed Elsayed (1986-2013)
+%\\\&\\
+%Palestinian people who stand as example of freedom
+}
+}
+\phd
+\copyrightyear{2024}
+\submitdate{October 2024}
+\convocation{October}{2024}
+%%%%%%%%%%%%%%%%%%%%%%%
+\twosupervisors
+\title{\textsl{Phenomenological Implications of Non-Minimal Supersymmetric Models}}
+\author{Mustafa Ashry Ibrahim Seif}
+%
+\supervisor{Prof. Ahmad A. Amer\\and\\Prof. Adel A. Mosharafa
+\\\small{Department of Mathematics,}
+\\\small{Faculty of Science, Cairo University, Egypt}}
+%
+\firstreader{Prof. Shaaban S. Khalil
+\\\small{Center for Fundamental Physics (CFP),}
+\\\small{Zewail City of Science and Technology, Egypt}}
+%
+\examiner{Prof. Qaisar Shafi
+\\\small{Department of Physics and Astronomy,}
+\\\small{Delaware University, USA}}
+%
+\secondreader{Prof. Alakabha Datta
+\\\small{Department of Physics and Astronomy,}
+\\\small{University of Mississippi, USA}}
+\university{cairo university}
+\dept{Mathematics}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+{Mustafa Ashry\footnote{mustafa@sci.cu.edu.eg,~mustafa@cu.edu.eg,~}{\Huge\orcidlink{0000-0003-4114-3684}}}
+\allowdisplaybreaks
+{
+\typeout{:?000000000} % Don't bother with over/under-full boxes
+\beforepreface
+\typeout{:?111111111} % Process All Errors from Here on
+}
+%%%%%%%%%%%%%%%%%%%%%%%
+%\setcounter{page}{1}
+%%%%%%%%%%%%%%%%%%%%%%%
+\printnomenclature[2cm]
+{\typeout{Abstract}\include{Preamble/Abstract}}
+{\typeout{Acknowledgements}\include{Preamble/Acknowledgment}}
+%%%%%%%%%%%%%%%%%%%%%%%
+\afterpreface
+\def\baselinestretch{1}
+%%%%%%%%%%%%%%%%%%%%%%%
+\setlinespacing{1.5}
+%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic} \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter:\,\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\,\ #1}}
+\addtolength{\headheight}{3pt} \fancyhead{}
+\fancyhead[RE]{\sl\leftmark} \fancyhead[RO,LE]{}
+\fancyhead[LO]{\sl\rightmark} \fancyfoot[L,E]{}\fancyfoot[C]{\rm\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%
+{\typeout{Introduction}\include{Preamble/Introduction}}
+%%%%%%%%%%%%%%%%%%%%%%%
+\include{Chapters/0MSSM}
+\include{Chapters/1BLSSM}
+\include{Chapters/2BLSSM_Pheno}
+\include{Chapters/3LRIS}
+\include{Chapters/4LRIS_Pheno}
+\include{Chapters/5VLSM}
+\include{Preamble/Conclusion}
+\include{Preamble/Appendix}
+\nomenclature{VLSM}{Vector-Like Fourth Family Extension of the Standard Model}
+\nomenclature{QFT}{Quantum Field Theory}
+\nomenclature{SM}{Standard Model}
+\nomenclature{BSM}{Beyond the Standard Model}
+\nomenclature{MSSM}{Minimal Supersymmetric Standard Model}
+\nomenclature{BLSSM}{$B-L$ Supersymmetric Standard Model}
+\nomenclature{LRSM}{Left-Right Symmetric Model}
+\nomenclature{LH}{Left-Handed}
+\nomenclature{RH}{Right-Handed}
+\nomenclature{EW}{Electroweak}
+\nomenclature{VEV}{Vacuum Expectation Value}
+\nomenclature{GeV}{Giga Electron Volt}
+\nomenclature{TeV}{Tera Electron Volt}
+\nomenclature{LHC}{Large Hadron Collider}
+\nomenclature{LRIS}{Left-Right Symmetric Model with Inverse Seesaw}
+\nomenclature{SSB}{Spontaneous Symmetry Breaking}
+\nomenclature{EM}{Electromagnetic}
+\nomenclature{LR}{Left-Right}
+\nomenclature{MeV}{Mega Electron Volt}
+\nomenclature{SUSY}{Supersymmetry}
+\nomenclature{$B-L$}{Baryon minus Lepton numbers}
+\nomenclature{BP}{Benchmark Point}
+\nomenclature{DoF}{Degrees of Freedom}
+\nomenclature{LFV}{Lepton Flavor Violation}
+\nomenclature{ML}{Machine Learning}
+\nomenclature{ROC}{Receiver Operating Characteristic Curve}
+\nomenclature{BDT}{Boosted Decision Tree}
+\nomenclature{AUC}{Area Under the Curve}
+%\nomenclature{EoM}{Equation of Motion}
+%\nomenclature{S}{Signal}
+%\nomenclature{B}{Background}
+%%%%%%%%%%%%%%%%%%%%%%%
+\setlinespacing{1.44}
+\bibliographystyle{acm1}
+\bibliography{./Preamble/References}
+%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%
+For abbreviations list
+latex Thesis.tex
+bibtex Thesis.aux
+latex Thesis.tex
+latex Thesis.tex
+makeindex Thesis.nlo -s nomencl.ist -o Thesis.nls
+latex Thesis.tex
+dvips Thesis.dvi
+ps2pdf Thesis.ps
+%%%%%%%%%%%%%%%%%%%%%%%
+For abbreviations list
+latex <filename>.tex
+makeindex <filename>.nlo -s nomencl.ist -o <filename>.nls
+latex <filename>.tex
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\iffalse
+MEFF 	Effective mass being defined as the sum of the transverse momentum of all final state objects and the missing transverse energy.
+MET 	Missing transverse energy.
+MHT 	Missing transverse energy defined from the jet activity only.
+NPID 	Particle content (PDG code distribution).
+NAPID 	Particle content (PDG code distribution in absolute value).
+SQRTS 	Partonic center-of-mass energy.
+SCALE 	Energy scale of the event.
+TET 	Scalar sum of the transverse energy of all final state objects.
+THT		Scalar sum of the transverse energy of all final state jets.
+WEIGHTS Event weights
+ABSETA 	Absolute value of the pseudorapidity.
+BETA 	Velocity β = v/c (relatively to the speed of light).
+E 		Energy.
+EE_HE 	Ratio of the electromagnetic energy to the hadronic energy (for a jet).
+ET 		Transverse energy.
+ETA 	Pseudorapidity.
+GAMMA 	Lorentz-factor.
+HE_EE 	Ratio of the hadronic energy to the electromagnetic energy (for a jet).
+M 		Invariant mass.
+MT 		Transverse mass.
+MT_MET 	Transverse mass of the system comprised of the object and the missing momentum.
+NTRACKS Number of tracks (inside a jet).
+P 		Magnitude of the three-momentum.
+PHI 	Azimuthal angle.
+PT 		Transverse momentum.
+PX 		x-component of the momentum.
+PY 		y-component of the momentum.
+PZ 		z-component of the momentum.
+R 		Position in the (η, φ) plane.
+Y 		Rapidity.
+
+DELTAR 		Angular distance, in the transverse plane, between the objects.
+DPHI_0_PI 	Angular distance in azimuth between the objects. The bounds for the angle are [0, π].
+DPHI_0_2PI 	Angular distance in azimuth between the objects. The bounds for the angle are [0, 2π].
+
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%
